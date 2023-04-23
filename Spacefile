@@ -1,0 +1,9 @@
+v: 0
+micros:
+  - name: devart
+    src: src/devart
+    engine: nodejs16
+    primary: true
+    public: true
+    dev: nodemon index.js
+    run: "node index.js"
